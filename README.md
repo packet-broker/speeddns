@@ -8,7 +8,7 @@ Download the binary and run - no installation required:
 
 ```bash
 # Download (choose your architecture)
-wget https://github.com/brownbananaz/speeddns/releases/latest/download/speeddns-linux-amd64
+wget https://github.com/packet-broker/speeddns/releases/latest/download/speeddns-linux-amd64
 chmod +x speeddns-linux-amd64
 
 # Run it
@@ -117,7 +117,7 @@ Run `speeddns --list` to see all resolvers with their full details.
 Requires Go 1.21+:
 
 ```bash
-git clone https://github.com/brownbananaz/speeddns.git
+git clone https://github.com/packet-broker/speeddns.git
 cd speeddns
 make build
 ./speeddns
